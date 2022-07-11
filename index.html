@@ -474,6 +474,22 @@
 						</li>
 					</ul>
 				</div>
+
+				<div class="footer-subscribe">
+					<strong class="footer-subtitle">Подпишитесь на рассылку</strong>
+
+					<form class="" action="">
+						<label class="" for="mail"></label>
+						<input class="" type="email" name="mail" id="mail" placeholder="E-mail" />
+
+						<button class="" type="submit" aria-label="Подписаться">
+							Подписаться
+							<svg width="24" height="24">
+								<use href="./images/icons.svg#icon-send-footer"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
 			</div>
 		</footer>
 
@@ -485,6 +501,48 @@
 						<use href="./images/icons.svg#icon-criss"></use>
 					</svg>
 				</button>
+
+				<form class="modal-form" action="">
+					<b>Оставьте свои данные, мы вам перезвоним</b>
+
+					<div class="modal-field">
+						<label for="name">Имя</label>
+						<input type="text" name="name" id="name" />
+						<svg width="12" height="12">
+							<use href="./images/icons.svg#icon-modal-name"></use>
+						</svg>
+					</div>
+
+					<div class="modal-field">
+						<label for="tel">Телефон</label>
+						<input type="text" name="tel" id="tel" />
+						<svg width="13" height="13">
+							<use href="./images/icons.svg#icon-modal-phone"></use>
+						</svg>
+					</div>
+
+					<div class="modal-field">
+						<label for="email">Почта</label>
+						<input type="email" name="email" id="email" />
+						<svg width="15" height="12">
+							<use href="./images/icons.svg#icon-modal-mail"></use>
+						</svg>
+					</div>
+
+					<div class="modal-comment">
+						<label for="comment">Комментарий</label>
+						<textarea name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea>
+					</div>
+
+					<div class="modal-checkbox">
+						<input type="checkbox" name="check" id="check" />
+						<label for="check">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+					</div>
+
+					<div>
+						<button class="modal-btn-send" type="submit">Отправить</button>
+					</div>
+				</form>
 			</div>
 		</div>
 
